@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "simple_economy",
-  "version": "${mod_version}",
+  "version": "${version}",
 
   "name": "Simple Economy",
   "description": "A simple serverside mod for managing economy",
