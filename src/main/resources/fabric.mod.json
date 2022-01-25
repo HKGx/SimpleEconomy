@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "simple_economy",
+  "version": "${mod_version}",
 
   "name": "Simple Economy",
   "description": "A simple serverside mod for managing economy",
@@ -19,12 +19,18 @@
   "entrypoints": {
     "main": [
       "com.hkgx.simple_economy.SimpleEconomy"
+    ],
+    "cardinal-components": [
+      "com.hkgx.simple_economy.EconomyComponents"
     ]
   },
   "mixins": [
     "simple_economy.mixins.json"
   ],
 
+  "custom": {
+    "cardinal-components": ["simple_economy:balance"]
+  },
   "depends": {
     "fabricloader": ">=0.12.12",
     "fabric": "*",
