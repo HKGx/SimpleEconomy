@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "diamondeconomy",
+  "id": "modid",
   "version": "${version}",
 
-  "name": "Diamond Economy",
-  "description": "Serverside economy mod with diamonds.",
+  "name": "Simple Economy",
+  "description": "A simple serverside mod for managing economy",
   "authors": [
-    ""
+    "HKGx"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/HKGx/diamond-economy"
   },
 
   "license": "MIT",
@@ -18,16 +18,18 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.gmail.sneakdevs.diamondeconomy.DiamondEconomy"
+      "com.hkgx.simple_economy.SimpleEconomy"
     ]
   },
   "mixins": [
-    "diamondeconomy.mixins.json"
+    "simple_economy.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "fabric": "*"
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
   },
   "suggests": {
     "another-mod": "*"

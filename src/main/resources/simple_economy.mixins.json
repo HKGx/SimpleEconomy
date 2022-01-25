@@ -1,8 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.gmail.sneakdevs.diamondeconomy.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "package": "com.hkgx.simple_economy.mixin",
+  "compatibilityLevel": "JAVA_17",
   "mixins": [
     "PlayerManagerMixin"
   ],
